@@ -348,9 +348,10 @@
 				CODE_SIGN_IDENTITY = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = test2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "dcda9a0d-89b8-47a7-8552-c67aabc17b14";
+				PROVISIONING_PROFILE = "89288a6e-ba94-4c50-a6cd-43f3739cd5fa";
 			};
 			name = Debug;
 		};
@@ -362,9 +363,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = test2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "dcda9a0d-89b8-47a7-8552-c67aabc17b14";
+				PROVISIONING_PROFILE = "89288a6e-ba94-4c50-a6cd-43f3739cd5fa";
 			};
 			name = Release;
 		};
