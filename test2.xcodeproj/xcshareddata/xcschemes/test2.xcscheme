@@ -111,7 +111,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "#!/bin/sh&#10;&#10;# Simple iOS build script&#10;# Written by Aron Bury, 29/11/2011&#10;&#10;appname=&quot;test2&quot;&#10;target_name=&quot;$Test2&quot;&#10;sdk=&quot;iphoneos&quot;&#10;certificate=&quot;iPhone Distribution: STV&quot;&#10;&#10;# To use as a fixed script use the first project_dir varirable.&#10;# If you are including it as a build step with Hudson, use the second variable passing in $WORKSPACE as the variable&#10;#project_dir=&quot;$HOME/Documents/apps/$appname&quot;&#10;#projet_dir=&quot;$1/$appname&quot;&#10;build_location=&quot;$HOME/Desktop/IPA/$appname&quot;&#10;&#10;#Create folder location for build files if they dont exist&#10;if [ ! -d &quot;$build_location&quot; ]; then&#10;mkdir -p &quot;$build_location&quot;&#10;fi&#10;&#10;cd &quot;$project_dir&quot;&#10;&#10;xcodebuild -target &quot;$appname&quot; OBJROOT=&quot;$build_location/obj.root&quot; SYMROOT=&quot;$build_location/sym.root&quot;&#10;&#10;xcrun -sdk iphoneos PackageApplication -v &quot;$build_location/sym.root/Release-iphoneos/$appname.app&quot; -o &quot;$build_location/$appname.ipa&quot; --sign &quot;$certificate&quot;">
+               scriptText = "">
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
